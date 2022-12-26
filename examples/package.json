@@ -1,0 +1,31 @@
+{
+    "name": "@tests/ex",
+    "version": "1.0.0",
+    "description": "This dir is expected to be built before the dependency resolution",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/endorlabs/js-integration-tests.git"
+    },
+    "author": "",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "rollup": "3.8.1"
+    },
+    "peerDependencies": {
+        "fsevents": "2.2.1"
+    },
+    "peerDependenciesMeta": {
+        "fsevents": {
+            "optional": true
+        }
+    }
+}

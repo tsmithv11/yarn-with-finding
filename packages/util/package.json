@@ -1,0 +1,23 @@
+{
+    "name": "@tests/util",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/endorlabs/js-integration-tests.git"
+    },
+    "author": "",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "mime-types": "2.1.35"
+    }
+}

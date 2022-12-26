@@ -1,0 +1,36 @@
+{
+  "name": "npmworkspace_it",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endorlabs/js-integration-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/endorlabs/js-integration-tests/issues"
+  },
+  "homepage": "https://github.com/endorlabs/js-integration-tests#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "semver": "6.0.0",
+    "@tests/util": ""
+  },
+  "devDependencies": {
+    "@babel/highlight": "~7.0.0"
+  },
+  "peerDependencies": {
+    "chalk": "^2.4.2"
+  },
+  "resolutions": {
+    "**/chalk": "3.0.0"
+  }
+}
