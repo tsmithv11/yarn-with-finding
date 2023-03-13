@@ -22,7 +22,11 @@
   ],
   "dependencies": {
     "semver": "6.0.0",
-    "@tests/util": ""
+    "@tests/util": "",
+    "minimist": "1.2.5",
+    "terser" : "5.10.0",
+    "minimatch": "3.0.4",
+    "shelljs": "0.8.4"
   },
   "devDependencies": {
     "@babel/highlight": "~7.0.0"
